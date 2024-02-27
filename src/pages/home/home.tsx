@@ -337,7 +337,7 @@ export const Home = () => {
                   <img
                     src="/src/assets/icons/linkedin-icon.svg"
                     alt="linkedin icon"
-                    className="h-8 mr-5"
+                    className="h-8 mr-5 hover:opacity-75"
                   />
                 </a>
 
@@ -349,7 +349,7 @@ export const Home = () => {
                   <img
                     src="/src/assets/icons/github-icon.svg"
                     alt="github icon"
-                    className="h-8"
+                    className="h-8 hover:opacity-75"
                   />
                 </a>
               </div>
