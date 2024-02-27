@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notable-regular {
+  font-family: "Notable", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nokora-regular {
+  font-family: "Nokora", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nokora-bold {
+  font-family: "Nokora", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nokora-black {
+  font-family: "Nokora", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
