@@ -52,7 +52,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({
               scrollToRef(mainRef);
               setSideMenuActive(false);
             }}
-            className=" cursor-pointer max-[650px]:hidden"
+            className=" cursor-pointer max-md:hidden"
           >
             <div className="group">
               <h2>About</h2>
@@ -67,7 +67,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({
               scrollToRef(aboutRef);
               setSideMenuActive(false);
             }}
-            className=" cursor-pointer min-[651px]:hidden"
+            className=" cursor-pointer md:hidden"
           >
             <div className="group">
               <h2>About</h2>

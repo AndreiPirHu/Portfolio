@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       />
       <div
         id="container"
-        className="flex px-16 max-[650px]:px-5 max-[650px]:justify-between"
+        className="flex px-16 max-md:px-5 max-md:justify-between"
       >
         <div id="left-container">
           <img
@@ -55,12 +55,12 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         <div
           id="center-container"
-          className="flex items-center ml-20 max-[650px]:hidden"
+          className="flex items-center ml-20 max-md:hidden"
         >
           <ul className="flex gap-7 text-[#F5F5F5] text-lg nokora-black ">
             <li
               onClick={() => scrollToRef(mainRef)}
-              className=" cursor-pointer max-[650px]:hidden"
+              className=" cursor-pointer max-md:hidden"
             >
               <div className="group">
                 <h2>About</h2>
@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             </li>
             <li
               onClick={() => scrollToRef(aboutRef)}
-              className=" cursor-pointer min-[651px]:hidden"
+              className=" cursor-pointer md:hidden"
             >
               <div className="group">
                 <h2>About</h2>
@@ -108,9 +108,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             </li>
           </ul>
         </div>
-        <div className="flex items-center min-[651px]:hidden">
+        <div className="flex items-center md:hidden">
           <img
-            src="/src/assets/icons/hamburger-menu-svgrepo-com.svg"
+            src="/src/assets/icons/hamburger-menu.svg"
             alt="hamburger menu icon"
             className="h-12 cursor-pointer"
             onClick={sideMenuToggle}

@@ -30,7 +30,7 @@ export const Home = () => {
 
       <div
         id="hero-container"
-        className="relative flex bg-cover bg-hero-background-new max-[876px]:bg-hero-background-new-medium max-[650px]:bg-hero-background-new-small max-[876px]:grid text-[#F5F5F5] bg-center "
+        className="relative flex bg-cover bg-hero-background-new max-[876px]:bg-hero-background-new-medium max-md:bg-hero-background-new-small max-[876px]:grid text-[#F5F5F5] bg-center  "
       >
         <div className=" flex flex-1 min-[877px]:justify-center items-center ">
           <div className="w-[80%]  max-[876px]:pl-10  text-sm max-[430px]:pl-5">
@@ -38,14 +38,14 @@ export const Home = () => {
               <h2 className="nokora-black text-xl text-[#9C84B8] max-[876px]:pt-10 max-[430px]:text-sm ">
                 Hi, I'm
               </h2>
-              <h1 className="text-6xl notable-regular max-[650px]:text-4xl max-[490px]:text-3xl max-[430px]:text-2xl">
+              <h1 className="text-6xl notable-regular max-md:text-5xl max-[650px]:text-4xl max-[490px]:text-3xl max-[430px]:text-2xl">
                 Andrei
               </h1>
-              <h1 className="text-4xl pb-10 notable-regular whitespace-nowrap min-[1290px]:text-6xl max-[876px]:text-5xl max-[650px]:text-4xl max-[650px]:pb-3 max-[490px]:text-3xl max-[430px]:text-2xl">
+              <h1 className="text-4xl pb-10 notable-regular whitespace-nowrap min-[1290px]:text-6xl max-[876px]:text-5xl max-md:text-5xl max-md:pb-3 max-[650px]:text-4xl max-[490px]:text-3xl max-[430px]:text-2xl">
                 Pirogov Huertas
               </h1>
 
-              <h2 className=" text-xl text-[#9C84B8] pb-2 nokora-black max-[876px]:hidden max-[650px]:block max-[650px]:whitespace-nowrap max-[650px]:text-white max-[650px]:text-base max-[490px]:text-sm max-[430px]:text-xs">
+              <h2 className=" text-xl text-[#9C84B8] pb-2 nokora-black max-[876px]:hidden max-md:block max-md:whitespace-nowrap max-md:text-white max-md:text-xl max-[650px]:text-base max-[490px]:text-sm max-[430px]:text-xs">
                 A developer with a passion for creating experiences
               </h2>
               <p className=" text-base nokora-bold max-[876px]:hidden">
@@ -60,7 +60,7 @@ export const Home = () => {
         </div>
 
         <div className="flex-1 flex justify-center items-center ">
-          <div className="flex-1 pl-10 min-[877px]:hidden max-[650px]:hidden">
+          <div className="flex-1 pl-10 min-[877px]:hidden max-md:hidden">
             <h2 className=" text-xl pb-2 nokora-black text-[#9C84B8] ">
               A developer with a passion for creating experiences
             </h2>
@@ -75,7 +75,7 @@ export const Home = () => {
             <img
               src="/src/assets/self-image-bw.png"
               alt="Image of Andrei"
-              className=" px-28 mb-[-1px] pt-[30%] max-[1097px]:px-[10%] max-[876px]:pt-0 max-[650px]:px-[30%]    "
+              className=" px-28 mb-[-1px] pt-[30%] max-[1097px]:px-[10%] max-[876px]:pt-0 max-md:px-[30%]    "
             />
           </div>
         </div>
@@ -109,7 +109,7 @@ export const Home = () => {
       >
         <h2 ref={aboutRef}></h2>
         <div className=" py-20  mx-[5%]">
-          <div id="About" className=" min-[651px]:hidden ">
+          <div id="About" className=" md:hidden ">
             <h2 className="notable-regular text-4xl mb-8 max-[490px]:text-3xl">
               About
             </h2>
