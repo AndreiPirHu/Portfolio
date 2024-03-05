@@ -33,7 +33,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({
         className="flex-1"
       ></div>
       <menu
-        className={`bg-[#292736] z-50 w-[60vw] h-screen transition-all duration-300 ${
+        className={`bg-[#292736] z-50 w-[60vw] max-w-[400px] h-screen transition-all duration-300 ${
           sideMenuActive ? "translate-x-0" : "translate-x-full"
         }`}
       >
