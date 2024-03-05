@@ -133,11 +133,17 @@ export const Home = () => {
               className="grid grid-cols-2 gap-y-32 gap-x-5 mt-10  max-md:grid-cols-1 max-md:gap-y-0 "
             >
               <div className="bg-white rounded-lg  h-fit">
-                <img
-                  src="/src/assets/portfolio/Unico.png"
-                  alt="Image of website Unico"
-                  className=" rounded-lg hover:opacity-75 cursor-pointer"
-                />
+                <a
+                  href="https://andreipirhu.github.io/Unico/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/src/assets/portfolio/Unico.png"
+                    alt="Image of website Unico"
+                    className=" rounded-lg hover:opacity-75 cursor-pointer"
+                  />
+                </a>
               </div>
 
               <div className=" max-md:pb-32 mt-1">
@@ -279,7 +285,9 @@ export const Home = () => {
                   form of 3 extra cards that can be used during play. Here you
                   can play against the computer or against a friend.
                 </p>
-                <p className="pt-3 ">Crafted with React and Redux.</p>
+                <p className="pt-3 ">
+                  Crafted with React, Redux and Javascript.
+                </p>
                 <div className="grid justify-center my-10">
                   <button
                     className="flex items-center max-w-[500px] px-8 py-2 bg-[#292736] rounded-md mb-5 hover:opacity-75"
