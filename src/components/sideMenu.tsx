@@ -39,7 +39,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({
       >
         <div className="h-20 shadow-md flex ">
           <img
-            src="/src/assets/icons/close-icon.svg"
+            src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/close-icon.svg"
             alt="Closing icon X"
             onClick={() => setSideMenuActive(false)}
             className=" cursor-pointer py-1"

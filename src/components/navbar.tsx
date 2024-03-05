@@ -46,7 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       >
         <div id="left-container">
           <img
-            src="/src/assets/icons/site-icon.svg"
+            src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/site-icon.svg"
             alt="Icon of initials APH"
             className="h-20 cursor-pointer"
             onClick={() => scrollToRef(mainRef)}
@@ -110,7 +110,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
         <div className="flex items-center md:hidden">
           <img
-            src="/src/assets/icons/hamburger-menu.svg"
+            src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/hamburger-menu.svg"
             alt="hamburger menu icon"
             className="h-12 cursor-pointer"
             onClick={sideMenuToggle}

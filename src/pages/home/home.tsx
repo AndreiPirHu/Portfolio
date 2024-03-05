@@ -73,7 +73,7 @@ export const Home = () => {
           </div>
           <div className="flex-1">
             <img
-              src="/src/assets/self-image-bw.png"
+              src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/self-image-bw.png"
               alt="Image of Andrei"
               className=" px-28 mb-[-1px] pt-[30%] max-[1097px]:px-[10%] max-[876px]:pt-0 max-md:px-[30%]    "
             />
@@ -85,22 +85,46 @@ export const Home = () => {
         id="stack"
         className="h-40  mt-[-1px] bg-[#292736] flex gap-20 p-10 overflow-x-auto  max-md:h-28 max-md:py-5 max-sm:h-20 max-sm:gap-14"
       >
-        <img src="/src/assets/stack/html-icon.svg" alt="html icon" />
-        <img src="/src/assets/stack/css-icon.svg" alt="html icon" />
         <img
-          src="/src/assets/stack/javascript-icon.svg"
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/html-icon.svg"
+          alt="html icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/css-icon.svg"
+          alt="html icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/javascript-icon.svg"
           alt="javascript icon"
         />
         <img
-          src="/src/assets/stack/typescript-icon.svg"
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/typescript-icon.svg"
           alt="typescript icon"
         />
-        <img src="/src/assets/stack/react-icon.svg" alt="react icon" />
-        <img src="/src/assets/stack/vue-icon.svg" alt="vue icon" />
-        <img src="/src/assets/stack/nodejs-icon.svg" alt="nodeJS icon" />
-        <img src="/src/assets/stack/swift-icon.svg" alt="swift icon" />
-        <img src="/src/assets/stack/github-icon.svg" alt="github icon" />
-        <img src="/src/assets/stack/tailwind-icon.svg" alt="tailwind icon" />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/react-icon.svg"
+          alt="react icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/vue-icon.svg"
+          alt="vue icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/nodejs-icon.svg"
+          alt="nodeJS icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/swift-icon.svg"
+          alt="swift icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/github-icon.svg"
+          alt="github icon"
+        />
+        <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/tailwind-icon.svg"
+          alt="tailwind icon"
+        />
       </div>
 
       <div
@@ -139,7 +163,7 @@ export const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/src/assets/portfolio/Unico.png"
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/portfolio/Unico.png"
                     alt="Image of website Unico"
                     className=" rounded-lg hover:opacity-75 cursor-pointer"
                   />
@@ -167,7 +191,7 @@ export const Home = () => {
                     }
                   >
                     <img
-                      src="/src/assets/icons/globe-icon.svg"
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/globe-icon.svg"
                       alt="globe icon"
                       className="mr-3 h-5"
                     />
@@ -180,7 +204,7 @@ export const Home = () => {
                     }
                   >
                     <img
-                      src="/src/assets/icons/github-icon.svg"
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/github-icon.svg"
                       alt="github icon"
                       className="mr-3 h-5"
                     />
@@ -199,7 +223,7 @@ export const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/src/assets/portfolio/Recipe-generator.png"
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/portfolio/Recipe-generator.png"
                     alt="Image of website Recipe Generator"
                     className="rounded-lg hover:opacity-75 cursor-pointer "
                   />
@@ -234,7 +258,7 @@ export const Home = () => {
                     }
                   >
                     <img
-                      src="/src/assets/icons/globe-icon.svg"
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/globe-icon.svg"
                       alt="globe icon"
                       className="mr-3 h-5"
                     />
@@ -249,7 +273,7 @@ export const Home = () => {
                     }
                   >
                     <img
-                      src="/src/assets/icons/github-icon.svg"
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/github-icon.svg"
                       alt="github icon"
                       className="mr-3 h-5"
                     />
@@ -268,7 +292,7 @@ export const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/src/assets/portfolio/Pazaak.png"
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/portfolio/Pazaak.png"
                     alt="Image of website Pazaak"
                     className="rounded-lg  hover:opacity-75   cursor-pointer"
                   />
@@ -296,7 +320,7 @@ export const Home = () => {
                     }
                   >
                     <img
-                      src="/src/assets/icons/globe-icon.svg"
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/globe-icon.svg"
                       alt="globe icon"
                       className="mr-3 h-5"
                     />
@@ -309,7 +333,7 @@ export const Home = () => {
                     }
                   >
                     <img
-                      src="/src/assets/icons/github-icon.svg"
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/github-icon.svg"
                       alt="github icon"
                       className="mr-3 h-5"
                     />
@@ -343,7 +367,7 @@ export const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/src/assets/icons/linkedin-icon.svg"
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/linkedin-icon.svg"
                     alt="linkedin icon"
                     className="h-8 mr-5 hover:opacity-75"
                   />
@@ -355,7 +379,7 @@ export const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/src/assets/icons/github-icon.svg"
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/github-icon.svg"
                     alt="github icon"
                     className="h-8 hover:opacity-75"
                   />
