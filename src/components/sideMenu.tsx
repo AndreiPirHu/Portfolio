@@ -20,7 +20,7 @@ export const SideMenu: React.FC<SideMenuProps> = ({
 }) => {
   return (
     <div
-      className={`fixed flex  w-full h-full bg-[rgba(0,0,0,.3)] transition-all duration-500 ${
+      className={`fixed top-0 flex  w-full h-full bg-[rgba(0,0,0,.3)] transition-all duration-500 ${
         sideMenuActive
           ? "opacity-100"
           : " opacity-0 pointer-events-none duration-[1200ms]"
