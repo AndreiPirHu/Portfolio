@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { Navbar } from "../../components/navbar";
-import "./home.css";
 export const Home = () => {
   const aboutRef = useRef<HTMLHeadingElement>(null);
   const portfolioRef = useRef<HTMLHeadingElement>(null);
