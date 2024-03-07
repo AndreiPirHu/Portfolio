@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { Navbar } from "../../components/navbar";
-
+import "./home.css";
 export const Home = () => {
   const aboutRef = useRef<HTMLHeadingElement>(null);
   const portfolioRef = useRef<HTMLHeadingElement>(null);
@@ -83,7 +83,7 @@ export const Home = () => {
 
       <div
         id="stack"
-        className="h-40  mt-[-1px] bg-[#292736] flex gap-20 p-10 overflow-x-auto  max-md:h-28 max-md:py-5 max-sm:h-20 max-sm:gap-14"
+        className="h-40  mt-[-1px] bg-[#292736] flex gap-20 p-10 overflow-x-auto xl:justify-between  max-md:h-28 max-md:py-5 max-sm:h-20 max-sm:gap-14"
       >
         <img
           src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/html-icon.svg"
