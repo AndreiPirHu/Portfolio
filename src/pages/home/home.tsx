@@ -215,6 +215,63 @@ export const Home = () => {
               <span className="block h-px bg-[#9C84B8] w-full max-md:hidden  "></span>
               <span className="block h-px bg-[#9C84B8] w-full max-md:hidden"></span>
 
+              <div className="bg-white rounded-lg  h-fit">
+                <a
+                  href="https://doggy-ware.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/portfolio/Unico.png"
+                    alt="Image of website Unico"
+                    className=" rounded-lg hover:opacity-75 cursor-pointer"
+                  />
+                </a>
+              </div>
+
+              <div className=" max-md:pb-32 mt-1">
+                <h2 className="notable-regular text-2xl max-[490px]:text-xl">
+                  DoggyWare - SaaS
+                </h2>
+                <p className="pt-3">
+                  A service for a dog daycare to be able to catalogue dogs and
+                  check them in and out.
+                </p>
+                <p className="pt-3">
+                  Crafted with Angular, Typescript and Tailwind CSS. Makes use
+                  of Firebase for database management.
+                </p>
+                <div className="grid justify-center my-10">
+                  <button
+                    className="flex items-center max-w-[500px] px-8 py-2 bg-[#292736] rounded-md mb-5 hover:opacity-75"
+                    onClick={() => openNewTab("https://doggy-ware.vercel.app/")}
+                  >
+                    <img
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/globe-icon.svg"
+                      alt="globe icon"
+                      className="mr-3 h-5"
+                    />
+                    Live demo
+                  </button>
+                  <button
+                    className="flex items-center max-w-[500px] px-8 py-2 bg-[#292736] rounded-md mb-5 hover:opacity-75"
+                    onClick={() =>
+                      openNewTab("https://github.com/AndreiPirHu/DoggyWare")
+                    }
+                  >
+                    <img
+                      src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/icons/github-icon.svg"
+                      alt="github icon"
+                      className="mr-3 h-5"
+                    />
+                    View the code
+                  </button>
+                </div>
+              </div>
+
+              <span className="block h-px bg-[#9C84B8] w-full max-md:hidden  "></span>
+              <span className="block h-px bg-[#9C84B8] w-full max-md:hidden"></span>
+
               <div className=" bg-white rounded-lg h-fit">
                 <a
                   href="https://andreipirhu.github.io/RecipeGenerator/"
@@ -343,7 +400,7 @@ export const Home = () => {
             </div>
           </div>
 
-          <div id="contact-container" className="mt-20">
+          <div id="contact-container" className="mt-40">
             <h2
               ref={contactRef}
               className="notable-regular text-4xl mb-8 max-[490px]:text-3xl"
