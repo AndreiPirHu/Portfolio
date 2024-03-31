@@ -105,6 +105,10 @@ export const Home = () => {
           alt="react icon"
         />
         <img
+          src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/angular-icon.svg"
+          alt="angular icon"
+        />
+        <img
           src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/stack/vue-icon.svg"
           alt="vue icon"
         />
@@ -222,8 +226,8 @@ export const Home = () => {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/portfolio/Unico.png"
-                    alt="Image of website Unico"
+                    src="https://raw.githubusercontent.com/AndreiPirHu/Portfolio/main/src/assets/portfolio/DoggyWare.png"
+                    alt="Image of website DoggyWare"
                     className=" rounded-lg hover:opacity-75 cursor-pointer"
                   />
                 </a>
